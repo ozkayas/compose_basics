@@ -49,8 +49,8 @@ fun TaskMainLayout(){
     ) {
         val image = painterResource(id = R.drawable.ic_task_completed)
         Image(painter = image, contentDescription = null)
-        Text(text = "All tasks completed", fontSize = 24.sp, modifier = Modifier.padding(top = 24.dp, bottom = 8.dp))
-        Text(text = "Nice work!", fontSize = 16.sp)
+        Text(text = stringResource(R.string.all_tasks_completed), fontSize = 24.sp, modifier = Modifier.padding(top = 24.dp, bottom = 8.dp))
+        Text(text = stringResource(R.string.nice_work), fontSize = 16.sp)
     }
 }
 
